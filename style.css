@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:  #33303dfd;
+    font-family: 'Mukta','sans-serif';
+    box-sizing: border-box;
+  } 
+  
+  /* logo or ul ki batt ho rahi ha  */
+   #navbar {
+    margin: 0 auto;
+    width: 70%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-container img{
+    width: 30px;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  #logo-container > h2 {
+    font-size: 60%;
+  }
+  
+  #nav-items {
+    font-size: larger;
+    display: flex;
+    list-style: none;
+    width: 500px;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+  }
+   
+  #nav-items li {
+    cursor: pointer;
+  }
+  #main-header{
+    display: flex;
+    justify-content: flex-end;
+    color:  rgb(234, 226, 226);
+     position: relative;                                   
+  }
+  
+  #main-header .right img{
+    width: 60%;
+    height: 180%;
+    margin-left: 440px;
+    margin-top: 30px;
+  }
+  
+  #main-header .right{
+    width: 90%;
+    height: 100%;
+    /* mix-blend-mode: color-dodge; */
+  }
+  
+   #main-header .left{
+    position: absolute; 
+    width: 40%;
+    height: 90%;
+    top: 100px;
+    left: 5%;
+    font-size: small;
+  }
+  
+  #main-header .left .big-text{
+    font-size: 70px;
+    line-height: 81px;
+    letter-spacing: 0px;
+    font-weight: 700;
+  }
+  
+  #main-header .left #overview {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+    gap: 15px;
+  }
+  
+  #main-header .left .overview-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #main-header .left .overview-items h4{
+    margin: 0px;
+    padding: 0px;
+    /* font-weight: 7000;  */
+    font-size: 18px;
+    letter-spacing: -1px;
+  }
+  
+  #spangradient-text{
+    color: rgb(93, 116, 93);
+  }
+  
+  #main-header .left #overview .overview-items p {
+    margin: 0;
+    padding: 0;
+    font-weight: 30px;
+  }
+  
+  .buttons {
+    display: flex;
+  }
+  
+  .btn {
+   padding: 4px 6px;
+   margin: 0px 0px;
+   border: 1px solid rgb(61, 79, 61);
+   transform: skew(-20deg);
+   
+   cursor: pointer;
+    
+  }
+  
+  .btn1 {
+    background-color: rgb(93, 116, 93);
+    background: linear-gradient(45deg , rgb(103, 79, 79)6% , rgb(88, 69, 69) 20%
+    , rgb(150, 112, 112) 97%);
+  }
+  
+  .overview-items .gradient-text{
+    color: rgb(93, 116, 93);
+  }
+  
+  .gradient-text{
+    color: rgb(93, 116, 93);
+  }
+  
+  .choose-section{
+    display: flex; 
+    flex-direction: column;
+    margin-top: 150px;
+    align-items: center;
+    /* justify-content: space-between; */
+    color: white;
+    text-align: centre;
+    padding: 0px;
+    line-height: 49px;
+  }
+  
+  .choose-section-tittle{
+    font-size: 40px;
+    font-weight: 900;
+  }
+  
+   .choose-section .choose-section-tittle .gradient-text{
+    margin-left: 25px;
+  } 
+  
+  .section-description{
+    width: 500px;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 25px;
+  }
+  
+  .choose-section .image-carousel{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  
+  .image-carousel .first-img{
+    width: 400px;
+    height: 300px;
+  }
+  
+  .image-carousel .centre-img{
+    width: 400px;
+    height: 320px;
+  }
+  
+  .image-carousel .last-img{
+    width: 400px;
+    height: 300px;
+  }
+  
+   .discover-section {
+     width: 70%;
+     margin: 100px auto;
+   }
+  
+  
+   .discover-card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    border: 1px solid rgb(15, 15, 15);
+    border-radius: 50px;
+    background: #e6e3ee06;
+    backdrop-filter: blur(4px);
+    box-shadow: 8px 8px 32px 8px #494558;
+   }
+  
+   .discover-section .discover-card img{
+     width: 350px;
+     height: 400px;
+   }
+  
+  .discover-card-details .big-text{
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0px;
+    line-height: 58px;
+    margin-left: 30px;
+  }
+  
+  .section-description{
+    color: #d6d1e5;
+    font-weight: 40px;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+   
+  .discover-card-details-btx{
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  
+  .demo-card-section{
+    width: 70%;
+    margin:  20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    color: #fff;
+  }
+  
+  
+  .btn{
+    margin-right: 40px;
+  }
+  
+  .demo-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .demo-card{
+    width: 30%;
+    /* height: 30%; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: 1px solid rgb(15, 15, 15);
+    background: #e6e3ee06;
+    backdrop-filter: blur(4px);
+    box-shadow: 8px 8px 32px 8px #494558;
+  }
+  
+  .img1{
+    width: 100%;
+    height: 90%;
+  }
+  
+  .small{
+    width: 15%;
+    height: 35%;
+    border-radius: 50%;
+  }
+  
+  .demo-game-btn{
+  cursor: pointer;
+  border: 1px solid rgb(27, 35, 27);
+  transform: skew(-20deg);
+  background-color: rgb(91, 64, 64);
+  text-align: center;
+  background: linear-gradient(45deg , rgb(103, 79, 79)6% , rgb(70, 55, 55) 20%
+    , rgb(136, 101, 101) 97%);
+  }
+  
+   
+  
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: #fff;
+    padding: 100px 10% 0 10%;
+    position: relative; 
+    background-color: #111014;
+  }
+  
+  .firsttt{
+    font-size: 15px;
+    background-color: #111014;
+    display: flex;
+    justify-content: center;
+     margin-top: 75px;
+  }
+  .taging{
+    font-size: 19px;
+    font-weight: 20px;
+    margin-top: -35px;
+    margin-bottom: 15px;
+    margin-left: 190px;
+    background-color: #111014;
+     
+  }
+  
+  .distance{
+    margin-top: -25px;
+    margin-bottom: -29px;
+    background-color: #111014;
+    width: 22%;
+  }
+  
+  #helper{
+    font-size: 15px;
+    margin-left: -40px;
+    background-color: #111014;
+     
+  }
+  .colour{
+    background-color: #111014;
+  }
+  
+  
